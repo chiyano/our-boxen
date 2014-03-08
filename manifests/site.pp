@@ -57,6 +57,7 @@ node default {
   include git
   include hub
   include nginx
+  include zsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -74,7 +75,10 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'lv',
+      'tmux',
+      'tree',
     ]:
   }
 
