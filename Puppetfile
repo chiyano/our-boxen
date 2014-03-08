@@ -58,3 +58,5 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 github "osx",         "2.2.2"
 github "zsh",         "1.0.0"
+github "emacs",       "1.2.0"
+github "chrome",      "1.1.2"
