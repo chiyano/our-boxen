@@ -83,6 +83,15 @@ node default {
     ]:
   }
 
+  # Install homebrew/dupes/grep
+  homebrew::tap { 'homebrew/dupes': } ->
+    package { 'grep':
+      ensure          => present,
+      install_options => [
+        '--default-names'
+      ]
+    }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
