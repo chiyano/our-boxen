@@ -60,6 +60,7 @@ node default {
   include chrome
   include emacs
   include java
+  include vagrant
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
