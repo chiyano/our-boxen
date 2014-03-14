@@ -59,6 +59,7 @@ node default {
   include zsh
   include chrome
   include emacs
+  include java
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
