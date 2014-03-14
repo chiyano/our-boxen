@@ -62,6 +62,7 @@ node default {
   include java
   include vagrant
   include virtualbox
+  include dropbox
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

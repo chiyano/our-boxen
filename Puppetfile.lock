@@ -14,6 +14,11 @@ GITHUBTARBALL
     dnsmasq (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-emacs
   specs:
     emacs (1.2.0)
@@ -137,6 +142,7 @@ DEPENDENCIES
   boxen (= 3.3.8)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
+  dropbox (= 1.2.0)
   emacs (= 1.2.0)
   foreman (= 1.1.0)
   gcc (= 2.0.1)
