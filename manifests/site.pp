@@ -61,6 +61,7 @@ node default {
   include emacs
   include java
   include vagrant
+  include virtualbox
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
